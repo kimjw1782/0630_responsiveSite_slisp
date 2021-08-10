@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
 
     <!-- Facebook meta tags -->
     <meta property="og:type" content="article" />
@@ -268,17 +269,32 @@
                     </article>
                     <!-- //col4 -->
                     <article class="column col5">
-                        <h4 class="col_tit">Title</h4>
-                        <p class="col_desc">이 곳은 설명 부분입니다</p>
-                        <!--  -->
-                        <!-- // -->
+                        <h4 class="col_tit">Blend Effect</h4>
+                        <p class="col_desc">Backgrond-blend-mode와 mix-blend-mode</p>
+                        <!-- lightbox -->
+                        <div class="lightbox square clearfix">
+                            <a href="img/light01_s.jpg"><img src="img/light01.jpg" alt="이미지"><em>blur</em></a>
+                            <a href="img/light02_s.jpg"><img src="img/light02.jpg" alt="이미지"><em>brightness</em></a>
+                            <a href="img/light03_s.jpg"><img src="img/light03.jpg" alt="이미지"><em>contrast</em></a>
+                            <a href="img/light04_s.jpg"><img src="img/light04.jpg" alt="이미지"><em>grayscale</em></a>
+                            <a href="img/light05_s.jpg"><img src="img/light05.jpg" alt="이미지"><em>hur-rotate</em></a>
+                            <a href="img/light06_s.jpg"><img src="img/light06.jpg" alt="이미지"><em>invert</em></a>
+                            <a href="img/light07_s.jpg"><img src="img/light07.jpg" alt="이미지"><em>opacity</em></a>
+                            <a href="img/light08_s.jpg"><img src="img/light08.jpg" alt="이미지"><em>saturate</em></a>
+                            <a href="img/light09_s.jpg"><img src="img/light09.jpg" alt="이미지"><em>sepia</em></a>
+                            <a href="img/light10_s.jpg"><img src="img/light10.jpg" alt="이미지"><em>Mix</em></a>
+                        </div>
+                        <!-- //lightbox -->
                     </article>
                     <!-- //col5 -->
                     <article class="column col6">
-                        <h4 class="col_tit">Title</h4>
-                        <p class="col_desc">이 곳은 설명 부분입니다</p>
-                        <!--  -->
-                        <!-- // -->
+                        <h4 class="col_tit">Video</h4>
+                        <p class="col_desc">반응형 영상을 보여주는 영역입니다.</p>
+                        <!-- video  -->
+                        <div class="video">
+                            <iframe src="https://www.youtube.com/embed/8-uJ_4136uI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <!-- //video -->
                     </article>
                     <!-- //col6 -->
                 </section>
@@ -286,24 +302,43 @@
                 <section id="cont_right">
                     <h3 class="ir_su">반응형 사이트 오른쪽 컨텐츠</h3>
                     <article class="column col7">
-                        <h4 class="col_tit">Slick Slider</h4>
-                        <p class="col_desc">slick.js를 이용한 이미지 슬라이드 효과입니다.</p>
-                        <!--  -->
-                        <!-- // -->
+                        <h4 class="col_tit">Effect1</h4>
+                        <p class="col_desc">css의 transform을 이용한 마우스오버효과입니다.</p>
+                        <!-- side1 -->
+                        <div class="side1">
+                            <figure class="front">
+                                <img src="img/side1.jpg" alt="이미지1">
+                            </figure>
+                            <div class="back">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <!-- //side1 -->
+
                     </article>
                     <!-- //col7-->
                     <article class="column col8">
-                        <h4 class="col_tit">Title</h4>
-                        <p class="col_desc">이 곳은 설명 부분입니다</p>
-                        <!--  -->
-                        <!-- // -->
+                        <h4 class="col_tit">Effect2</h4>
+                        <p class="col_desc">css의 transform을 이용한 마우스오버효과입니다.</p>
+                        <!-- side2 -->
+                        <div class="side2">
+                            <figure>
+                                <img src="img/side2.jpg" alt="이미지2">
+                            </figure>
+                        </div>
+                        <!-- //side2 -->
                     </article>
                     <!-- //col8 -->
                     <article class="column col9">
-                        <h4 class="col_tit">Title</h4>
-                        <p class="col_desc">이 곳은 설명 부분입니다</p>
-                        <!--  -->
-                        <!-- // -->
+                        <h4 class="col_tit">Effect3</h4>
+                        <p class="col_desc">css의 transform을 이용한 마우스오버효과입니다.</p>
+                        <!-- side3 -->
+                        <div class="side3">
+                            <figure>
+                                <img src="img/side3.jpg" alt="이미지3">
+                            </figure>
+                        </div>
+                        <!-- //side3 -->
                     </article>
                     <!-- //col7 -->
                 </section>
@@ -314,8 +349,25 @@
     </main>
 
     <footer id="footer">
-        <div class="contaniner">
-            <h2>반응형 사이트 푸너</h2>
+        <div class="container">
+            <div class="row">
+                <div class="footer">
+                    <ul>
+                        <li><a href="#">사이트 도움말</a></li>
+                        <li><a href="#">사이트 이용약관</a></li>
+                        <li><a href="#">사이트 운영원칙</a></li>
+                        <li><a href="#"><strong>개인정보취급방침</strong></a></li>
+                        <li><a href="#">책임의 한계와 법적고지</a></li>
+                        <li><a href="#">게시중단요청서비스</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                    <address>
+                        Copyright ©
+                        <a href="http://webstoryboy.co.kr"><strong>webstoryboy</strong></a>
+                        All Rights Reserved.
+                    </address>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- //footer -->
@@ -324,32 +376,62 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/modernizr-custom.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+
     <script>
-     // 이미지 슬라이드
-     $(".slider").slick({
-        dots: true,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        arrows: true,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    autoplay: false,
-                    }
+
+        // 접기/펼치기
+        $(".btn").click(function(e){
+            e.preventDefault();
+            $(".nav").slideToggle();
+            $(".btn").toggleClass("open");
+            if($(".btn").hasClass("open")){
+                // open 클래스가 있을때
+                $(".btn").find("i").attr("class","fa fa-angle-up")
+            }else{
+                // open 클래스가 없을때
+                $(".btn").find("i").attr("class","fa fa-angle-down")
             }
-        ]
         });
 
-    // sns 공유하기
-    $(".facebook").click(function(e){
-        e.preventDefault();
-        window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.title), 'facebooksharedialog', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600');
-    });
-    $(".twitter").click(function(e){
-        e.preventDefault();
-        window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20' +encodeURIComponent(document.URL)+'%20-%20'+encodeURIComponent(document.title), 'twittersharedialog', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600');
-    });
+        $(window).resize(function(){
+            var wWidth = $(window).width();
+            if(wWidth > 600){
+                $(".nav").removeAttr("style");
+            }
+        });
+
+        //라이트 박스
+            $(".lightbox").lightGallery({
+                autoplay: true,
+                pause:3000,
+                progressBar: true,
+            });
+        // 이미지 슬라이드
+        $(".slider").slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        autoplay: false,
+                        }
+                }
+            ]
+            });
+
+        // sns 공유하기
+        $(".facebook").click(function(e){
+            e.preventDefault();
+            window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.title), 'facebooksharedialog', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600');
+        });
+        $(".twitter").click(function(e){
+            e.preventDefault();
+            window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20' +encodeURIComponent(document.URL)+'%20-%20'+encodeURIComponent(document.title), 'twittersharedialog', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600');
+        });
 
     </script>
 </body>
